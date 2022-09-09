@@ -1,6 +1,13 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: 'Print the size of the type structures'
+ *
+ * Return: Always 0 (Success)
+ */
 
-int main()
+int main(void)
 {
 	int x;
 	char y;
@@ -10,5 +17,5 @@ int main()
 	printf("The size of a long int: %d byte(s)\n", sizeof(long int));
 	printf("The size of a long long int: %d byte(s)\n", sizeof(long long int));
 	printf("The size of a float: %d byte(s)\n", sizeof(float));
-	return 0;
+	return (0);
 }
