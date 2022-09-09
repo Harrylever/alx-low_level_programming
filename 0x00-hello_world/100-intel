@@ -1,0 +1,2 @@
+#!/bin/bash
+NICE=$(echo $CFILE | tr .c .s) && gcc -S $CFILE -o $NICE
