@@ -4,7 +4,7 @@
  *
  * Description: 'Returns error'
  *
- * Return: Always 1 (Error) 
+ * Return: Always 1 (Error)
  */
 
 int main(void)
