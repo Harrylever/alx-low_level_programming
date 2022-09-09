@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-/*
+/**
  * main - Entry point
  *
- * Description: ''
+ * Description: 'Return an Error'
  *
  * Return: Always 1 (Error)
  */
