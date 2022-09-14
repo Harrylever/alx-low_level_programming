@@ -7,12 +7,13 @@
 
 int main(void)
 {
-	long int i, new_result, x = 0, y = 1;
+	int i;
+	long int new_result, x = 0, y = 1;
 
 	for (i = 1; i <= 50; i++)
 	{
 		new_result = x + y;
-		if (1 == 50)
+		if (i == 50)
 		{
 			printf("%ld", new_result);
 		}
