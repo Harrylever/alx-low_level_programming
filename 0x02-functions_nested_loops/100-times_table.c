@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_times_table - Print the time table of n
- * @n: number
+ * print_times_table - the function
+ * @n: value for looping
  * Return: Always (0)
  */
 
@@ -40,6 +40,5 @@ void print_times_table(int n)
 			}
 			printf("\n");
 		}
-		printf("\n");
 	}
 }
