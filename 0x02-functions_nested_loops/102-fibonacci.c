@@ -12,9 +12,10 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
 		new_result = x + y;
-		printf("%d\n", new_result);
+		printf("%ld, ", new_result);
 		x = y;
 		y = new_result;
 	}
+	printf("\n");
 	return (0);
 }
