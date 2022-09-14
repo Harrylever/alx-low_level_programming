@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - prints alphabet ten times
+ * main - Entry point
  *
- * Description: prints out all the letters to the screen ten times
- * Return: Void
+ * Description: 'prints out all the letters to the screen ten times'
+ *
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet_x10(void)
@@ -13,6 +15,7 @@ void print_alphabet_x10(void)
 	while (count < 10)
 	{
 		char letter = 'a';
+
 		while (letter <= 'z')
 		{
 			_putchar(letter);
