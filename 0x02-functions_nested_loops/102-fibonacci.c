@@ -12,7 +12,14 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
 		new_result = x + y;
-		printf("%ld, ", new_result);
+		if (1 == 50)
+		{
+			printf("%ld", new_result);
+		}
+		else
+		{
+			printf("%ld, ", new_result);
+		}
 		x = y;
 		y = new_result;
 	}
