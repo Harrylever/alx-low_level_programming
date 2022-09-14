@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  *
  * Description: 'prints out all the letters to the screen ten times'
  *
