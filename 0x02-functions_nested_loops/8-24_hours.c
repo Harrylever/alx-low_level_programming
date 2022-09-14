@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * jack_bauer - prints out every minute of the day for jack bauer
  *
@@ -37,12 +36,11 @@ void jack_bauer(void)
 			}
 			if (num1 == 2 && num2 == 3)
 			{
-				break;
+			break;
 			}
 			num2++;
+			}
 		}
-	}
 		num1++;
 	}
-}
 }
