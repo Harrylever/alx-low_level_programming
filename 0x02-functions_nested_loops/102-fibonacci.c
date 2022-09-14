@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i, new_result, x = 0, y = 1;
+	long int i, new_result, x = 0, y = 1;
 
 	for (i = 1; i <= 50; i++)
 	{
