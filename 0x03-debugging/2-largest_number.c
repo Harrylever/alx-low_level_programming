@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * largest_number - Returns the largest integer of a function
+ * some_how - Returns the largest integer of a function
  * @a: First integer
  * @b: Second integer
  * @c: Third integer
  * Return: Largest Integer
  */
-int largest_number(int a, int b, int c)
+
+int some_how(int a, int b, int c)
 {
-	int largest = 0;
+	int largest;
 
 	if (a == b)
 	{
@@ -43,6 +44,24 @@ int largest_number(int a, int b, int c)
 		{
 			largest = a;
 		}
+	}
+	return (largest);
+}
+
+/**
+ * largest_number - Returns the largest integer of a function
+ * @a: First integer
+ * @b: Second integer
+ * @c: Third integer
+ * Return: Largest Integer
+ */
+int largest_number(int a, int b, int c)
+{
+	int largest = 0;
+
+	if (a == b || a == c || b == c)
+	{
+		largest = some_how(a, b, c);
 	}
 	if (a > b && a > c)
 	{
