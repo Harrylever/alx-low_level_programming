@@ -1,10 +1,12 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
  * puts2 - prints one char out of 2 of a string
  * then a new line
  * @str: string to print the chars from
+ * Return: void
  */
+
 void puts2(char *str)
 {
 	int len, i;
@@ -18,9 +20,8 @@ void puts2(char *str)
 
 	for (i = 0; i < len; i += 2)
 	{
-		_putchar(str[i]);
+		printf(str[i]);
 	}
-
-	_putchar('\n');
+	printf('\n');
 }
 
