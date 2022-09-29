@@ -1,37 +1,38 @@
 #include "main.h"
-
-int actual_sqrt_recursion(int n, int i);
+int is_divisible(int num, int div);
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
- * @n: number to calculate the square root of
- *
- * Return: the resulting square root
+ * is_prime_number - code
+ * @n: code
+ * Return: code
  */
-int _sqrt_recursion(int n)
+int is_prime_number(int n)
 {
-	if (n < 0)
-		return (-1);
-	return (actual_sqrt_recursion(n, 0));
+	int div = 2;
+
+	if (n <= 1)
+		return (0);
+
+	if (n <= 3)
+		return (1);
+
+	return (is_divisible(n, div));
 }
 
 /**
- * actual_sqrt_recursion - recurses to find the natural
- * square root of a number
- * @n: number to calculate the sqaure root of
- * @i: iterator
- * Return: the resulting square root
+ * is_divisible - code
+ * @num: code
+ * @div: code
+ * Return: code
  */
-int actual_sqrt_recursion(int n, int i)
+int is_divisible(int num, int div)
 {
-	if (i * i > n)
-	{
-		return (-1);
-	}
-	if (i * i == n)
-	{
-		return (i);
-	}
-	return (actual_sqrt_recursion(n, i + 1));
+	if (num % div == 0)
+		return (0);
+
+	if (div == num / 2)
+		return (1);
+
+	return (is_divisible(num, div + 1));
 }
 
